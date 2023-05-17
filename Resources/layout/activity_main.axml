@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center" android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/randomNumberTextView"
+            android:layout_width="166dp"
+            android:layout_height="140dp"
+            android:textSize="96sp"
+            android:gravity="center_horizontal"
+            android:text="0" tools:visibility="visible" android:fontFamily="sans-serif"/>
+
+    <SeekBar
+            android:id="@+id/rangeSeekBar"
+            android:layout_width="378dp"
+            android:layout_height="38dp"
+            android:max="10"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+    <Button
+            android:id="@+id/rollButton"
+            android:layout_width="235dp"
+            android:layout_height="34dp"
+            android:text="Roll"
+            android:layout_marginTop="16dp" android:background="#EC0A0A" android:textSize="24sp"
+            android:fontFamily="sans-serif"/>
+
+</LinearLayout>
